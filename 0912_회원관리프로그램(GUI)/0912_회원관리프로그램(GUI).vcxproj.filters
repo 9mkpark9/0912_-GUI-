@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="02_UI">
+      <UniqueIdentifier>{14ba102b-2426-45fa-9852-13abda2c719f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_FORM">
+      <UniqueIdentifier>{3cf48c77-9769-42b6-a7f8-3dfea589a2ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_MAIN">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="04_RESOURCE">
+      <UniqueIdentifier>{6d47fd77-5a43-4836-bcc0-9ca2466ec6c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_DATA">
+      <UniqueIdentifier>{a193153d-7d20-42b3-964a-096ba879e540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_FILEIO">
+      <UniqueIdentifier>{1ebf56f9-a908-4df3-b4d7-ee2d9db0ae64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07_NET">
+      <UniqueIdentifier>{5bea78a7-2134-4678-863c-70a8f5b43982}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="start.cpp">
+      <Filter>03_MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="handler..cpp">
+      <Filter>03_MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="dlgchatproc.cpp">
+      <Filter>01_FORM</Filter>
+    </ClCompile>
+    <ClCompile Include="dlgcreateproc.cpp">
+      <Filter>01_FORM</Filter>
+    </ClCompile>
+    <ClCompile Include="control.cpp" />
+    <ClCompile Include="ui_createdlg.cpp">
+      <Filter>02_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_maindlg.cpp">
+      <Filter>02_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_chatdlg.cpp">
+      <Filter>02_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="member.cpp">
+      <Filter>05_DATA</Filter>
+    </ClCompile>
+    <ClCompile Include="fio.cpp">
+      <Filter>06_FILEIO</Filter>
+    </ClCompile>
+    <ClCompile Include="ipc.cpp">
+      <Filter>07_NET</Filter>
+    </ClCompile>
+    <ClCompile Include="packet.cpp">
+      <Filter>07_NET</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dlgchatproc.h">
+      <Filter>01_FORM</Filter>
+    </ClInclude>
+    <ClInclude Include="dlgcreateproc.h">
+      <Filter>01_FORM</Filter>
+    </ClInclude>
+    <ClInclude Include="handler.h">
+      <Filter>03_MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="std.h">
+      <Filter>03_MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>04_RESOURCE</Filter>
+    </ClInclude>
+    <ClInclude Include="control.h" />
+    <ClInclude Include="ui_createdlg.h">
+      <Filter>02_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_maindlg.h">
+      <Filter>02_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_chatdlg.h">
+      <Filter>02_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="member.h">
+      <Filter>05_DATA</Filter>
+    </ClInclude>
+    <ClInclude Include="fio.h">
+      <Filter>06_FILEIO</Filter>
+    </ClInclude>
+    <ClInclude Include="ipc.h">
+      <Filter>07_NET</Filter>
+    </ClInclude>
+    <ClInclude Include="packet.h">
+      <Filter>07_NET</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="0912_회원관리프로그램(GUI).rc">
+      <Filter>04_RESOURCE</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
